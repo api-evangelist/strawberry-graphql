@@ -2,7 +2,7 @@ aid: strawberry-graphql
 name: Strawberry GraphQL
 description: "Python GraphQL library using code-first schema creation with Python type hints and dataclasses, supporting ASGI/WSGI frameworks, subscriptions, federation, and schema directives. Delivers more than 6 million downloads per month."
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://strawberry.rocks/
 baseURL: https://play.strawberry.rocks
 created: 2026-06-14
