@@ -32,6 +32,8 @@ apis:
       - url: graphql/strawberry-graphql-graphql.md
         type: GraphQL
 common:
+  - type: DomainSecurity
+    url: security/strawberry-graphql-domain-security.yml
   - url: https://strawberry.rocks/
     type: Website
   - url: https://strawberry.rocks/docs
