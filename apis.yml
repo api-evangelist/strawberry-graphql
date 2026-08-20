@@ -22,6 +22,12 @@ specificationVersion: '0.23'
 tags:
   - GraphQL
   - Python
+  - Open-Source
+  - Code-First
+  - Federation
+tags_raw:
+  - GraphQL
+  - Python
   - Open Source
   - Code First
   - Federation
@@ -30,6 +36,12 @@ apis:
     name: Strawberry GraphQL GraphQL API
     description: "Code-first GraphQL API built with Strawberry, using Python type hints and dataclasses to define schemas. Supports queries, mutations, subscriptions, federation, dataloaders, and schema/field extensions across ASGI and WSGI frameworks."
     tags:
+      - GraphQL
+      - Python
+      - Type Hints
+      - Subscription
+      - Federation
+    tags_raw:
       - GraphQL
       - Python
       - Type Hints
