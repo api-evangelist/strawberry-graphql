@@ -1,6 +1,8 @@
 aid: strawberry-graphql
 name: Strawberry GraphQL
-description: "Python GraphQL library using code-first schema creation with Python type hints and dataclasses, supporting ASGI/WSGI frameworks, subscriptions, federation, and schema directives. Delivers more than 6 million downloads per month."
+description: Python GraphQL library using code-first schema creation with Python type hints and dataclasses,
+  supporting ASGI/WSGI frameworks, subscriptions, federation, and schema directives. Delivers more than
+  6 million downloads per month.
 type: Index
 deliveryModel:
   model: saas
@@ -28,62 +30,64 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/strawberry
 url: https://strawberry.rocks/
 baseURL: https://play.strawberry.rocks
 created: 2026-06-14
-modified: 2026-06-14
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
-  - GraphQL
-  - Python
-  - Open-Source
-  - Code-First
-  - Federation
+- GraphQL
+- Python
+- Open-Source
+- Code-First
+- Federation
 tags_raw:
+- GraphQL
+- Python
+- Open Source
+- Code First
+- Federation
+apis:
+- aid: strawberry-graphql:graphql-api
+  name: Strawberry GraphQL API
+  description: Code-first GraphQL API built with Strawberry, using Python type hints and dataclasses to
+    define schemas. Supports queries, mutations, subscriptions, federation, dataloaders, and schema/field
+    extensions across ASGI and WSGI frameworks.
+  tags:
   - GraphQL
   - Python
-  - Open Source
-  - Code First
+  - Type Hints
+  - Subscription
   - Federation
-apis:
-  - aid: strawberry-graphql:graphql-api
-    name: Strawberry GraphQL GraphQL API
-    description: "Code-first GraphQL API built with Strawberry, using Python type hints and dataclasses to define schemas. Supports queries, mutations, subscriptions, federation, dataloaders, and schema/field extensions across ASGI and WSGI frameworks."
-    tags:
-      - GraphQL
-      - Python
-      - Type Hints
-      - Subscription
-      - Federation
-    tags_raw:
-      - GraphQL
-      - Python
-      - Type Hints
-      - Subscriptions
-      - Federation
-    humanURL: https://strawberry.rocks/docs
-    baseURL: https://play.strawberry.rocks
-    properties:
-      - url: https://strawberry.rocks/docs
-        type: Documentation
-      - url: graphql/strawberry-graphql-graphql.md
-        type: GraphQL
-common:
-  - type: DomainSecurity
-    url: security/strawberry-graphql-domain-security.yml
-  - url: https://strawberry.rocks/
-    type: Website
+  tags_raw:
+  - GraphQL
+  - Python
+  - Type Hints
+  - Subscriptions
+  - Federation
+  humanURL: https://strawberry.rocks/docs
+  baseURL: https://play.strawberry.rocks
+  properties:
   - url: https://strawberry.rocks/docs
     type: Documentation
-  - url: https://www.linkedin.com/company/strawberry-graphql
-    type: LinkedIn
-  - url: https://github.com/strawberry-graphql
-    type: GitHubOrganization
-  - url: https://opencollective.com/strawberry-graphql
-    type: Pricing
-  - url: plans/strawberry-graphql-plans.md
-    type: Plans
-  - url: rate-limits/strawberry-graphql-rate-limits.md
-    type: RateLimits
-  - url: finops/strawberry-graphql-finops.md
-    type: FinOps
+  - url: graphql/strawberry-graphql-graphql.md
+    type: GraphQL
+common:
+- type: DomainSecurity
+  url: security/strawberry-graphql-domain-security.yml
+- url: https://strawberry.rocks/
+  type: Website
+- url: https://strawberry.rocks/docs
+  type: Documentation
+- url: https://www.linkedin.com/company/strawberry-graphql
+  type: LinkedIn
+- url: https://github.com/strawberry-graphql
+  type: GitHubOrganization
+- url: https://opencollective.com/strawberry-graphql
+  type: Pricing
+- url: plans/strawberry-graphql-plans.md
+  type: Plans
+- url: rate-limits/strawberry-graphql-rate-limits.md
+  type: RateLimits
+- url: finops/strawberry-graphql-finops.md
+  type: FinOps
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
