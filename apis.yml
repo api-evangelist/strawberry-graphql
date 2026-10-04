@@ -35,7 +35,7 @@ specificationVersion: '0.23'
 tags:
 - GraphQL
 - Python
-- Open-Source
+- Open Source
 - Code-First
 - Federation
 tags_raw:
@@ -44,6 +44,7 @@ tags_raw:
 - Open Source
 - Code First
 - Federation
+- Open-Source
 apis:
 - aid: strawberry-graphql:graphql-api
   name: Strawberry GraphQL API
